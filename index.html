@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf - 8" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="source/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><i class="arrow"></i>Weather App</header>
+      <section class="input-part">
+        <p class="info-txt">Please enter a valid city name</p>
+        <input
+          type="text"
+          placeholder="Enter a city name"
+          spellcheck="false"
+          required
+        />
+        <div class="separator"></div>
+        <button>Get device location</button>
+      </section>
+      <section class="weather-part">
+        <img src="source/icons/cloudy.png" alt="Weather Icon" />
+        <div class="temp">
+          <span class="numb">13</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">Broken Clouds</div>
+        <div class="location">
+          <i class="bx bx-map"></i>
+          <span>Katmandu, Nepal</span>
+        </div>
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class="bx bxs-thermometr"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb2">_</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div class="details">
+              <span class="numb">_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="source/script.js"></script>
+  </body>
+</html>
